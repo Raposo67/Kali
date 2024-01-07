@@ -35,7 +35,7 @@ OBS: Na Instalação Do Kali Lite tambem aparecera um Erro Parecido!
 para isso é so Entrar na Pasta kali-Lite e vê o arquivo cmd.txt, depois executar os comandos no terminal.
 
 ### Comandos Para o Erro na Atualização dos Repositorios:
-obs: copie os comandos do directorio Kali/kali-rootless/erro.sh do termux e faça um novo arquivo com o nome 'erro.sh', depois execute esses comandos:
+obs: copie os comandos do directorio Kali/kali-rootless/erros/erro.sh do termux e faça um novo arquivo com o nome 'erro.sh', depois execute esses comandos:
 ```bash
 $ chmod erro.sh
 ```
