@@ -19,6 +19,8 @@ else
  clear
  ./install-nethunter-termux
 fi
+clear
+echo "Senha da vnc:"
 nh kex passwd
 clear
 printf "${blue}##################################################\n"

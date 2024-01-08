@@ -1,0 +1,4 @@
+#copie um codigo de cada vez, e execute eles no terminal
+echo 'APT::Sandbox::User "root";' > /etc/apt/apt.conf.d/01-android-nosandbox
+
+groupadd -g 3003 aid_inet && usermod -G nogroup -g aid_inet _apt
