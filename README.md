@@ -6,24 +6,24 @@
 ## ✓ Comandos No Termux Instalação do Rootless
 
 ```bash
-$ pkg update && apt upgrade -y
+pkg update -y && apt upgrade -y && apt update -y
 ```
 ####
 
 ```bash
-$ git clone https://github.com/Raposo/Kali.git
+git clone https://github.com/Raposo/Kali.git
 ```
 ####
 ```bash
-$ cd Kali/kali-rootless
+cd Kali/kali-rootless
 ```
 ####
 ```bash
-$ chmod kali.sh
+chmod +x kali.sh
 ```
 ####
 ```bash
-$ ./kali.sh
+./kali.sh
 ```
 OBS: Certifique-se de ter pelo menos 13 Gigas antes de tentar executar o script $kali.sh, pois a instalação é muito dos arquivos é Muito grande. caso haja algum erro use os comando individuais no arquivo cmd.txt.
 
@@ -37,10 +37,10 @@ para isso é so Entrar na Pasta kali-Lite e vê o arquivo cmd.txt, depois execut
 ### Comandos Para o Erro na Atualização dos Repositorios:
 obs: copie os comandos do directorio Kali/kali-rootless/erros/erro.sh do termux e faça um novo arquivo com o nome 'erro.sh', depois execute esses comandos:
 ```bash
-$ chmod erro.sh
+chmod +x erro.sh
 ```
 ```bash
-$ ./erros.sh
+./erros.sh
 ```
 ##### Creditos:
 https://github.com/Raposo67/ 
