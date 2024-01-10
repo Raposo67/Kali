@@ -8,7 +8,9 @@
 ```bash
 pkg update -y && apt upgrade -y && apt update -y
 ```
-####
+```bash
+pkg install git
+```
 
 ```bash
 git clone https://github.com/Raposo/Kali.git
