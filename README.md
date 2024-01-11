@@ -13,7 +13,7 @@ pkg install git
 ```
 
 ```bash
-git clone https://github.com/Raposo/Kali.git
+git clone https://github.com/Raposo67/Kali.git
 ```
 ####
 ```bash
@@ -37,7 +37,12 @@ OBS: Na Instalação Do Kali Lite tambem aparecera um Erro Parecido!
 para isso é so Entrar na Pasta kali-Lite e vê o arquivo cmd.txt, depois executar os comandos no terminal.
 
 ### Comandos Para o Erro na Atualização dos Repositorios:
-obs: copie os comandos do directorio Kali/kali-rootless/erros/erro.sh do termux e faça um novo arquivo com o nome 'erro.sh', depois execute esses comandos:
+```bash
+echo -e "nameserver 8.8.8.8
+nameserver 8.8.4.4
+options edns0 trust-ad
+search whitedome.com.au" > /etc/resolv.conf && cd Kali/Kali-rootless/erros
+```
 ```bash
 chmod +x erro.sh
 ```
