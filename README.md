@@ -38,10 +38,7 @@ para isso é so Entrar na Pasta kali-Lite e vê o arquivo cmd.txt, depois execut
 
 ### Comandos Para o Erro na Atualização dos Repositorios:
 ```bash
-echo -e "nameserver 8.8.8.8
-nameserver 8.8.4.4
-options edns0 trust-ad
-search whitedome.com.au" > /etc/resolv.conf && cd Kali/Kali-rootless/erros
+echo -e "nameserver 8.8.8.8\nnameserver 8.8.4.4\noptions edns0 trust-as\nsearch whitedome.com.au" > /etc/resolv.conf && cd Kali/Kali-rootless/erros
 ```
 ```bash
 chmod +x erro.sh
