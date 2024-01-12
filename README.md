@@ -1,4 +1,7 @@
-### Fiz esse repositório para colocar scripts em bash que facilita a instalação do Kali Nethunter No Termux, ou que Resolvem alguns erros de Update && upgrade nos repositórios de cada um.
+## Kali Linux Android | Instalação
+### Kali Nethunter
+![kali-nethunter-op7t](https://github.com/Raposo67/Kali/assets/114825370/954d3c63-4a0d-489c-9b67-bcb3ffa529a7)
+Fiz esse repositório para colocar scripts em bash que facilita a instalação do Kali Nethunter No Termux, ou que Resolvem alguns erros de Update && upgrade nos repositórios de cada um.
 #### Existem 3 Versões Do Kali Nethunter Para o Android:
 + Kali Rootless
 + Nethunter Lite
