@@ -6,6 +6,9 @@ Fiz esse repositório para colocar scripts em bash que facilita a instalação d
 + Kali Rootless
 + Nethunter Lite
 + Kali Linux Nethunter
+
+Instale o F-Droid aqui: <a href="https://f-droid.org/F-Droid.apk">Baixar</a>
+
 ## ✓ Comandos No Termux Instalação do Rootless
 
 ```bash
