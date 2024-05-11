@@ -12,30 +12,11 @@ Instale o F-Droid aqui: <a href="https://f-droid.org/F-Droid.apk">Baixar</a>
 ## ✓ Comandos No Termux Instalação do Rootless
 
 ```bash
-pkg update -y && apt upgrade -y && apt update -y
-```
-```bash
-pkg install git
-```
-
-```bash
-git clone https://github.com/Raposo67/Kali.git
-```
-####
-```bash
-cd Kali/kali-rootless
-```
-####
-```bash
-chmod +x kali.sh
-```
-####
-```bash
-./kali.sh
+pkg update -y && apt upgrade -y && apt update -y && pkg install git -y && git clone https://github.com/Raposo67/Kali && cd Kali/kali-rootless && chmod +x kali.sh && ./Kali.sh
 ```
 OBS: Certifique-se de ter pelo menos 13 Gigas antes de tentar executar o script $kali.sh, pois a instalação é muito dos arquivos é Muito grande. caso haja algum erro use os comando individuais no arquivo cmd.txt.
 
-#### após a instalação haverá alguns erros na atualização dos Pacotes e dos repositórios com o apt update e upgrade.
+OBS²: após a instalação poderá aparecer alguns erros na atualização dos Pacotes e dos repositórios com o apt update e upgrade, se caso aparecer Siga as instruções abaixo:
 ### Tipo do Erro:
 ![Screenshot_20240107-152232-126](https://github.com/Raposo67/Kali/assets/114825370/52e819f0-77f6-4053-80bd-a0147a7aea08)
 
