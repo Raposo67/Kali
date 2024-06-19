@@ -47,4 +47,3 @@ else
  echo "Nao foi concluido"
 fi
 apt update -y
-kill -9 -1
