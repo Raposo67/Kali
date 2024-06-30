@@ -5,5 +5,5 @@ echo 'APT::Sandbox::User "root";' > /etc/apt/apt.conf.d/01-android-nosandbox && 
 ```
  #### Comandos para instalar meus apps/ DEV
  ``` bash
-git clone https://github.com/Raposo67/Chrome && cd Chrome && chmod +x chrome.sh && git clone git clone https://github.com/Raposo67/Tor && cd Tor && chmod +x tor.sh && ./tor.sh && git clone https://github.com/Raposo67/Vscode && cd Vscode && chmod +x vscode.sh && ./vscode.sh
+git clone https://github.com/Raposo67/Chrome && cd Chrome && chmod +x chrome.sh && git clone https://github.com/Raposo67/Tor && cd Tor && chmod +x tor.sh && ./tor.sh && git clone https://github.com/Raposo67/Vscode && cd Vscode && chmod +x vscode.sh && ./vscode.sh
 ```
